@@ -1,6 +1,6 @@
 @keyframes button-animation {
-    from { padding: 10px 20px; }
-    to { padding: 15px 30px; }
+    from { padding: 10px 20px; font-size: inherit; }
+    to { padding: 15px 30px; font-size: 24px; }
 }
 
 .button {
@@ -23,6 +23,7 @@
     background: linear-gradient(rgb(160, 122, 122), rgb(114, 86, 86));
     animation-name: button-animation;
     animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .button:active {
