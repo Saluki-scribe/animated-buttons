@@ -1,0 +1,29 @@
+@keyframes {
+    from { padding: 10px 20px; }
+    to { padding: 15px 30px; }
+}
+
+.button {
+    display: inline-block;
+    background: rosybrown;
+    background: linear-gradient(rosybrown, rgb(129, 98, 98));
+    border: solid 1px rgb(114, 87, 87);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 3px black;
+}
+
+.button:hover {
+    border-color: rgb(46, 34, 34);
+    text-shadow: 0 1px 2px rgb(66, 66, 66);
+    background: rgb(126, 95, 95);
+    background: linear-gradient(rgb(160, 122, 122), rgb(114, 86, 86))
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
