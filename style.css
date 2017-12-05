@@ -30,3 +30,12 @@
     position: relative;
     top: 1px;
 }
+
+.alt-button {
+    background: radial-gradient(rosybrown, rgb(231, 181, 181));
+
+}
+
+.alt-button:hover {
+    background: radial-gradient(rgb(231, 181, 181), rosybrown);
+}
